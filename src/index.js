@@ -3,15 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 //表示するものの指定　⇓⇓
-import Clock from './Clock';
+import Fruits from './Fruits';
+
 //import 名前 from './Clock';
 
 import reportWebVitals from './reportWebVitals';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Clock />
+    <Fruits />
   </React.StrictMode>
 );
 
